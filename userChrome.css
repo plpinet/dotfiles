@@ -1,0 +1,10 @@
+/* requires to go in about:config and change the value of toolkit.legacyUserProfileCustomizations.stylesheets to true. */
+
+/* hides the native tabs */
+#TabsToolbar {
+  visibility: collapse;
+}
+
+#sidebar-header {
+  visibility: collapse !important;
+}
